@@ -16,8 +16,7 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 
-# from django.api import WhateverResource
-from .api import WhateverResource
+from restTastypie.api import WhateverResource
 
 whatever_resource = WhateverResource()
 
